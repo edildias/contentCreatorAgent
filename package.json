@@ -1,0 +1,16 @@
+{
+  "name": "topvoice-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "format": "biome format .",
+    "lint": "biome lint ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.1"
+  }
+}
